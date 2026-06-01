@@ -40,3 +40,8 @@ ScrollReveal().reveal(".header-btn", {
     ...scrollRevealOption,
     delay: 1500
 })
+
+ScrollReveal().reveal(".destination-card", {
+    ...scrollRevealOption,
+    interval: 500
+})
