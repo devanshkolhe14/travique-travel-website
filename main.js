@@ -23,25 +23,62 @@ const scrollRevealOption = {
 
 ScrollReveal().reveal(".header-image img", {
     ...scrollRevealOption,
-    origin: "right"
+    origin: "right",
+    delay: 500
 })
 
 ScrollReveal().reveal(".header-content p", {
     ...scrollRevealOption,
-    delay: 500
+    delay: 1000
 })
 
 ScrollReveal().reveal(".header-content h1", {
     ...scrollRevealOption,
-    delay: 1000
+    delay: 1500
 })
 
 ScrollReveal().reveal(".header-btn", {
     ...scrollRevealOption,
-    delay: 1500
+    delay: 2000
 })
 
 ScrollReveal().reveal(".destination-card", {
     ...scrollRevealOption,
     interval: 500
 })
+
+ScrollReveal().reveal(".showcase-image img", {
+    ...scrollRevealOption,
+    origin: "left"
+})
+
+ScrollReveal().reveal(".showcase-content h4", {
+    ...scrollRevealOption,
+    delay: 500
+})
+
+ScrollReveal().reveal(".showcase-content p", {
+    ...scrollRevealOption,
+    delay: 1000
+})
+
+ScrollReveal().reveal(".showcase-btn", {
+    ...scrollRevealOption,
+    delay: 1500
+})
+
+ScrollReveal().reveal(".banner-card", {
+    ...scrollRevealOption,
+    interval: 500
+})
+
+ScrollReveal().reveal(".discover-card", {
+    ...scrollRevealOption,
+    interval: 500
+})
+
+const swiper = new Swiper(".swiper", {
+    slidesPerView: 3,
+    spaceBetween: 20,
+    loop: true,
+});
